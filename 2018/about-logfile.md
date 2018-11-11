@@ -11,7 +11,7 @@
 
 在计算机领域，日志文件的定义如下：
 
-> [日志文件](https://zh.wikipedia.org/zh-hans/%E6%97%A5%E5%BF%97%E6%96%87%E4%BB%B6)（logfile）是一个记录了发生在运行中的操作系统或其他软件中的事件的文件，或者记录了在网络聊天软件的用户之间发送的消息。日志记录（Logging）是指保存日志的行为。
+> [日志文件](https://zh.wikipedia.org/zh-hans/%E6%97%A5%E5%BF%97%E6%96%87%E4%BB%B6)(logfile)是一个记录了发生在运行中的操作系统或其他软件中的事件的文件，或者记录了在网络聊天软件的用户之间发送的消息。日志记录(Logging)是指保存日志的行为。
 
 
 ## 日志的意义
@@ -82,9 +82,7 @@ queryid=45
 
 ## 日志归档
 
-按日期，文件大小对日志进行滚动归档，压缩保存。
-
-- 滚动归档
+根据天数或者文件大小产生新的文件，对日志进行滚动归档，压缩保存。
 
 
 ## 日志的性能
@@ -111,13 +109,19 @@ logger.debug("Entry number: {} is {}", i, entry[i]);
 	- Jdk 自带的 Logger， 从1.4版本开始就有了，使用起来非常方便，一般用于测试，不支持占位符
 - Log4j
 	- Log4j 应该是最常用的日志框架了，其高度可配置，在运行期使用外部的配置文件对其进行配置。它按照优先级别记录日志，并可将日志信息定向输出到各种介质，比如数据库、文件、控制台、Unix Syslog等。
-	- Log4j 主要由三部分组成：
-		- loggers：负责采集日志信息。
-		- appenders：负责将日志信息发布到不同地方。
-		- layouts：负责以各种风格格式化日志信息。 	
-- slf4 
-- logback
-- commons-logging
+	- loggers：负责采集日志信息。
+	- appenders：负责将日志信息发布到不同地方。
+	- layouts：负责以各种风格格式化日志信息。 	
+- Slf4j
+	- Slf4j是The Simple Logging Facade for Java的简称，是一个简单日志门面抽象框架，它本身只提供了日志Facade API和一个简单的日志类实现，一般常配合Log4j，LogBack，java.util.logging使用。Slf4j作为应用层的Log接入时，程序可以根据实际应用场景动态调整底层的日志实现框架(Log4j/LogBack/JdkLog…)。
+
+- Logback
+	- LogBack是Log4j的改良版本，比Log4j拥有更多的特性，同时也带来很大性能提升。LogBack官方建议配合Slf4j使用，这样可以灵活地替换底层日志框架。 
+	- LogBack被分为3个组件，logback-core, logback-classic 和 logback-access。
+	- logback-core提供了LogBack的核心功能，是另外两个组件的基础。
+	- logback-classic则实现了Slf4j的API，所以当想配合Slf4j使用时，需要将logback-classic加入classpath。
+	- logback-access是为了集成Servlet环境而准备的，可提供HTTP-access的日志接口。
+- ...
 
 ## 最佳实践
 
