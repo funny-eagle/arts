@@ -1,4 +1,4 @@
-# ARTS - 每周分享
+# ARTS - 每周技术分享
 ## Algorithm
 每周至少做一个leetcode算法题
 ## Review
