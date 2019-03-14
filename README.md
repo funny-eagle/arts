@@ -1,9 +1,12 @@
 # ARTS - 每周技术分享
 
-> **Algorithm** 至少做一个leetcode算法题
-> **Review** 阅读并点评至少一篇英文技术文章
-> **Tip** 学习至少一个技术技巧
-> **Share** 分享一篇有观点和思考的技术文章
+> A: **Algorithm** 至少做一个leetcode算法题
+>
+> R: **Review** 阅读并点评至少一篇英文技术文章
+>
+> T: **Tip** 学习至少一个技术技巧
+>
+> S: **Share** 分享一篇有观点和思考的技术文章
 
 - 2018
   - [ARTS01-0707.md](https://github.com/yangjinlong86/arts/blob/master/2018/ARTS01-0707.md)
