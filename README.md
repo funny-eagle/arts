@@ -10,6 +10,10 @@
 
 - 2019
   - [ARTS-33-0309.md](https://github.com/yangjinlong86/arts/blob/master/2019/ARTS33-0309.md)
+    - Algorithm:832. Flipping an Image
+    - Review: Inverted Index
+    - Tip: Aggregation pattern
+    - Share: 数据库设计的范式化和反范式化
   - [ARTS-32-0302.md](https://github.com/yangjinlong86/arts/blob/master/2019/ARTS32-0302.md)
   - [ARTS-31-0216.md](https://github.com/yangjinlong86/arts/blob/master/2019/ARTS31-0216.md)
   - [ARTS-30-0127.md](https://github.com/yangjinlong86/arts/blob/master/2019/ARTS30-0127.md)
