@@ -9,19 +9,22 @@
 > S: **Share** 分享一篇有观点和思考的技术文章
 
 - 2019
+  - [ARTS-35-0324.md](<https://github.com/yangjinlong86/arts/blob/master/2019/ARTS35-0324.md>)
+    - Algorithm:[700. Search in a Binary Search Tree](https://leetcode.com/problems/search-in-a-binary-search-tree/)
+    - Review: [5 best libraries for making AJAX calls in React](https://hashnode.com/post/5-best-libraries-for-making-ajax-calls-in-react-cis8x5f7k0jl7th53z68s41k1)
+    - Tip: 二叉查找树相关的几个基本概念
+    - Share: [深入浅出UML类图](http://www.uml.org.cn/oobject/201211231.asp)
   - [ARTS-34-0316.md](https://github.com/yangjinlong86/arts/blob/master/2019/ARTS34-0316.md)
 
     - Algorithm: [35. Search Insert Position](https://leetcode.com/problems/search-insert-position/)
     - Review: [Gateway Aggregation pattern](https://docs.microsoft.com/en-us/azure/architecture/patterns/gateway-aggregation)
     - Tip: Spring Cloud Gateway 的使用
     - Share: [Cloud Design Patterns](https://docs.microsoft.com/en-us/azure/architecture/patterns/)
-
   - [ARTS-33-0309.md](https://github.com/yangjinlong86/arts/blob/master/2019/ARTS33-0309.md)
     - Algorithm:832. Flipping an Image
     - Review: Inverted Index
     - Tip: Aggregation pattern
     - Share: 数据库设计的范式化和反范式化
-
   - [ARTS-32-0302.md](https://github.com/yangjinlong86/arts/blob/master/2019/ARTS32-0302.md)
 
     - Algorithm:[977. Squares of a Sorted Array](https://leetcode.com/problems/squares-of-a-sorted-array/)
@@ -31,27 +34,22 @@
     - Tip: Docker 容器中centos的编码问题
 
     - Share: 开源项目的选择和使用
-
   - [ARTS-31-0216.md](https://github.com/yangjinlong86/arts/blob/master/2019/ARTS31-0216.md)
 
     - Algorithm: [905. Sort Array By Parity](https://leetcode.com/problems/sort-array-by-parity/)
     - Review: [Quick Tips for Fast Code on the JVM](https://gist.github.com/djspiewak/464c11307cabc80171c90397d4ec34ef)
     - Tip: 使用 lombok @Slf4j 注解简化日志开发
     - Share: 解决 Windows 7 IE11 HTML 页面打开空白问题
-
   - [ARTS-30-0127.md](https://github.com/yangjinlong86/arts/blob/master/2019/ARTS30-0127.md)
 
     - Algorithm: [961. N-Repeated Element in Size 2N Array](https://leetcode.com/problems/n-repeated-element-in-size-2n-array/)
     - Review: [Thread-Safe Collections](https://medium.com/elp-2018/thread-safe-collections-8f1f17c283e7)
     - Tip: 10进制计数法和2进制计数法
     - Share: AOP入门分享PPT
-
   - [ARTS-29-0119.md](https://github.com/yangjinlong86/arts/blob/master/2019/ARTS29-0119.md)
 
     - Algorithm: [804. Unique Morse Code Words](https://leetcode.com/problems/unique-morse-code-words/)
-
   - [ARTS-28-0112.md](https://github.com/yangjinlong86/arts/blob/master/2019/ARTS28-0112.md)
-
   - [ARTS-27-0105.md](https://github.com/yangjinlong86/arts/blob/master/2019/ARTS27-0105.md)
 - 2018
   - [ARTS-26-1229.md](https://github.com/yangjinlong86/arts/blob/master/2018/ARTS26-1229.md)
