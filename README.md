@@ -9,6 +9,11 @@
 > S: **Share** 分享一篇有观点和思考的技术文章
 
 - 2019
+  - [ARTS-36-0406](https://github.com/yangjinlong86/arts/blob/master/2019/ARTS36-0406.md)
+    - Algorithm: 654.Maximum Binary Tree
+    - Review:10 best practices for better restfull api
+    - Tip:递归和调用栈
+    - Share:耗叔的分布式系统的技术栈
   - [ARTS-35-0324.md](<https://github.com/yangjinlong86/arts/blob/master/2019/ARTS35-0324.md>)
     - Algorithm:[700. Search in a Binary Search Tree](https://leetcode.com/problems/search-in-a-binary-search-tree/)
     - Review: [5 best libraries for making AJAX calls in React](https://hashnode.com/post/5-best-libraries-for-making-ajax-calls-in-react-cis8x5f7k0jl7th53z68s41k1)
