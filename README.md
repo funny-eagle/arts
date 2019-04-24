@@ -83,3 +83,5 @@
   - [ARTS-03-0722.md](https://github.com/yangjinlong86/arts/blob/master/2018/ARTS03-0722.md)
   - [ARTS-02-0715.md](https://github.com/yangjinlong86/arts/blob/master/2018/ARTS02-0715.md)
   - [ARTS-01-0707.md](https://github.com/yangjinlong86/arts/blob/master/2018/ARTS01-0707.md)
+
+![左耳听风](https://raw.githubusercontent.com/yangjinlong86/arts/master/2018/images/zuoertingfeng.jpeg)
