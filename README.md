@@ -1,7 +1,6 @@
 # ARTS - 每周技术分享
 
-> `ARTS`是[左耳朵耗子(陈皓)](https://github.com/haoel)对其[左耳听风](https://time.geekbang.org/column/intro/48)专栏读者发起的一项能力训练活动。
-> `ARTS`即 **Algorithm** 至少做一个leetcode算法题, **Review** 阅读并点评至少一篇英文技术文章, **Tip** 学习至少一个技术技巧, **Share** 分享一篇有观点和思考的技术文章
+> `ARTS`是[左耳朵耗子(陈皓)](https://github.com/haoel)对其[左耳听风](https://time.geekbang.org/column/intro/48)专栏读者发起的一项能力训练活动。`A`、`R`、`T`、`S`分别代表 **Algorithm** 至少做一个leetcode算法题, **Review** 阅读并点评至少一篇英文技术文章, **Tip** 学习至少一个技术技巧, **Share** 分享一篇有观点和思考的技术文章。
 
 ## 做ARTS的目的
 
@@ -11,6 +10,7 @@
 > 
 > 如果你们试着将自己知道的东西向别人清晰地讲出来，你会发现这并不容易，心里想得挺明白，讲的时候就开始语无伦次了，如果再让你把知道的东西写下来呢？你可 能根本无从下笔。如果你不把学到的东西变成自己的技能，你就会进入“道理懂得再多，也改变不了自己“的境界，如果知识不能变成技能，那一点用都没有，但是知识要变成技能的这个过程会非常痛苦！ 但是请注意，这种困难和痛苦才是真正深度学习的开始，而深度学习才真正决定你的人生高度 ！     --陈皓
 
+## ARTS目录
 - 2019
   - [ARTS-36-0406](https://github.com/yangjinlong86/arts/blob/master/2019/ARTS36-0406.md)
     - Algorithm: 654.Maximum Binary Tree
