@@ -12,12 +12,12 @@
 
 ## ARTS目录
 - 2019
-  - [ARTS-37-0419](https://github.com/yangjinlong86/arts/blob/master/2019/ARTS37-0419.md)
-    - Algorithm
+  - [ARTS-37-0419.md](https://github.com/yangjinlong86/arts/blob/master/2019/ARTS37-0419.md)
+    - Algorithm:
     - Review: What is Test Driven Development (TDD)?
     - Tip: Springboot logback profile
     - Share:
-  - [ARTS-36-0406](https://github.com/yangjinlong86/arts/blob/master/2019/ARTS36-0406.md)
+  - [ARTS-36-0406.md](https://github.com/yangjinlong86/arts/blob/master/2019/ARTS36-0406.md)
     - Algorithm: 654.Maximum Binary Tree
     - Review:10 best practices for better restfull api
     - Tip:递归和调用栈
