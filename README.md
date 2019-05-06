@@ -177,7 +177,7 @@
     - Algorithm: Reverse Integer
     - Review: A container networking overview
     - Tip: Maven Profile
-    - Share: https://github.com/haoel/leetcode/blob/master/algorithms/cpp/reverseInteger/reverseInteger.cpp
+    - Share: reverse integer 解题思路
   - [ARTS-06-0811.md](https://github.com/yangjinlong86/arts/blob/master/2018/ARTS06-0811.md)  
     - Algorithm: ZigZag Conversion
     - Review: google chrome now labels http sites as 'not secure'
