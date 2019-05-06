@@ -79,28 +79,132 @@
     - Share: 分享几个图片处理算法的文章
 - 2018
   - [ARTS-26-1229.md](https://github.com/yangjinlong86/arts/blob/master/2018/ARTS26-1229.md)
+    - Algorithm:
+    - Review: 
+    - Tip: 
+    - Share: 
   - [ARTS-25-1222.md](https://github.com/yangjinlong86/arts/blob/master/2018/ARTS25-1222.md)  
+    - Algorithm:
+    - Review: 
+    - Tip: 
+    - Share:   
   - [ARTS-24-1215.md](https://github.com/yangjinlong86/arts/blob/master/2018/ARTS24-1215.md)
+    - Algorithm:
+    - Review: 
+    - Tip: 
+    - Share:   
   - [ARTS-23-1208.md](https://github.com/yangjinlong86/arts/blob/master/2018/ARTS23-1208.md)
+    - Algorithm:
+    - Review: 
+    - Tip: 
+    - Share: 
   - [ARTS-22-1201.md](https://github.com/yangjinlong86/arts/blob/master/2018/ARTS22-1201.md)
+    - Algorithm:
+    - Review: 
+    - Tip: 
+    - Share:   
   - [ARTS-21-1124.md](https://github.com/yangjinlong86/arts/blob/master/2018/ARTS21-1124.md)
+    - Algorithm:
+    - Review: 
+    - Tip: 
+    - Share: 
   - [ARTS-20-1118.md](https://github.com/yangjinlong86/arts/blob/master/2018/ARTS20-1118.md)
+    - Algorithm:
+    - Review: 
+    - Tip: 
+    - Share: 
   - [ARTS-19-1111.md](https://github.com/yangjinlong86/arts/blob/master/2018/ARTS19-1111.md)
+    - Algorithm:
+    - Review: 
+    - Tip: 
+    - Share: 
   - [ARTS-18-1104.md](https://github.com/yangjinlong86/arts/blob/master/2018/ARTS18-1104.md)
+    - Algorithm:
+    - Review: 
+    - Tip: 
+    - Share: 
   - [ARTS-17-1028.md](https://github.com/yangjinlong86/arts/blob/master/2018/ARTS17-1028.md)
+    - Algorithm:
+    - Review: 
+    - Tip: 
+    - Share: 
   - [ARTS-16-1021.md](https://github.com/yangjinlong86/arts/blob/master/2018/ARTS16-1021.md)
+    - Algorithm:
+    - Review: 
+    - Tip: 
+    - Share: 
   - [ARTS-15-1013.md](https://github.com/yangjinlong86/arts/blob/master/2018/ARTS15-1013.md)
+    - Algorithm: Remove Duplicates From Sorted Array
+    - Review: Apache Kafka Quickstart
+    - Tip: eureka ribbon 负载均衡遇到的坑
+    - Share: 金字塔原理
   - [ARTS-14-1006.md](https://github.com/yangjinlong86/arts/blob/master/2018/ARTS14-1006.md)
+    - Algorithm: Merge Two Sorted Lists
+    - Review: CAP theorem
+    - Tip: There is no tip this week.
+    - Share: 分享一篇去年写的关于抱怨的短文
   - [ARTS-13-0929.md](https://github.com/yangjinlong86/arts/blob/master/2018/ARTS13-0929.md)
+    - Algorithm: Valid Parentheses
+    - Review: Dynamic Proxies in Java
+    - Tip: Valid Parentheses 解题思路
+    - Share: 近期技术点总结
   - [ARTS-12-0922.md](https://github.com/yangjinlong86/arts/blob/master/2018/ARTS12-0922.md)
+    - Algorithm: Longest Common Prefix
+    - Review: Understanding the Proxy Design Pattern
+    - Tip: Failed to load Main-Class manifest attribute from xxx.jar
+    - Share: Proxy Pattern
   - [ARTS-11-0915.md](https://github.com/yangjinlong86/arts/blob/master/2018/ARTS11-0915.md)
+    - Algorithm: Jewels and Stones
+    - Review: Strategy Pattern Tutorial with Java Examples
+    - Tip: canal-server docker
+    - Share: Strategy pattern
   - [ARTS-10-0908.md](https://github.com/yangjinlong86/arts/blob/master/2018/ARTS10-0908.md)
+    - Algorithm: Roman To Integer
+    - Review: Apache Commons Chain
+    - Tip: sessionStorage 和 localStorage
+    - Share: Chain of Responsibility Pattern
   - [ARTS-09-0901.md](https://github.com/yangjinlong86/arts/blob/master/2018/ARTS09-0901.md)
+    - Algorithm: Palindrome Number
+    - Review: Using Command Pattern in Java
+    - Tip: 两个小坑（vue 大小写问题和nginx client max body size 问题）
+    - Share: Command Pattern
   - [ARTS-08-0826.md](https://github.com/yangjinlong86/arts/blob/master/2018/ARTS08-0826.md)
+    - Algorithm: String to Integer (atoi)
+    - Review: docker network modes
+    - Tip: ocker container 使用主机网络
+    - Share: Observer Pattern
   - [ARTS-07-0818.md](https://github.com/yangjinlong86/arts/blob/master/2018/ARTS07-0818.md)  
+    - Algorithm: Reverse Integer
+    - Review: A container networking overview
+    - Tip: Maven Profile
+    - Share: https://github.com/haoel/leetcode/blob/master/algorithms/cpp/reverseInteger/reverseInteger.cpp
   - [ARTS-06-0811.md](https://github.com/yangjinlong86/arts/blob/master/2018/ARTS06-0811.md)  
+    - Algorithm: ZigZag Conversion
+    - Review: google chrome now labels http sites as 'not secure'
+    - Tip: Docker 容器多目录挂载
+    - Share: 负载均衡
   - [ARTS-05-0804.md](https://github.com/yangjinlong86/arts/blob/master/2018/ARTS05-0804.md)  
+    - Algorithm: Longest Palindromic Substring
+    - Review: Demystifying Dynamic Programming
+    - Tip: Docker spring boot 项目使用位于容器外（宿主机）的配置文件
+    - Share: Jenkins Pipeline script
   - [ARTS-04-0728.md](https://github.com/yangjinlong86/arts/blob/master/2018/ARTS04-0728.md)  
+    - Algorithm: Median of Two Sorted Arrays
+    - Review: Docker for beginners、Best practices for writing Dockerfiles
+    - Tip: Canal 找不到binlog问题分析
+    - Share: 几期ARTS的一些感悟
   - [ARTS-03-0722.md](https://github.com/yangjinlong86/arts/blob/master/2018/ARTS03-0722.md)
+    - Algorithm: Longest Substring Without Repeating Characters
+    - Review: Top 10 Best Practices for Jenkins Pipeline Plugin
+    - Tip: CI & CD with Jenkins pipline
+    - Share: CI & CD with Jenkins pipline
   - [ARTS-02-0715.md](https://github.com/yangjinlong86/arts/blob/master/2018/ARTS02-0715.md)
+    - Algorithm: Add Two Numbers
+    - Review: Code Review Best Practices
+    - Tip: 列举所有oss对象的方法
+    - Share: 20条数据库设计最佳实践
   - [ARTS-01-0707.md](https://github.com/yangjinlong86/arts/blob/master/2018/ARTS01-0707.md)
+    - Algorithm: Two Sum 
+    - Review: Understanding MySQL Queries with Explain
+    - Tip: springboot 多模块项目引入问题
+    - Share: Adapter Design Pattern in Java
