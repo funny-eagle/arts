@@ -79,60 +79,60 @@
     - Share: 分享几个图片处理算法的文章
 - 2018
   - [ARTS-26-1229.md](https://github.com/yangjinlong86/arts/blob/master/2018/ARTS26-1229.md)
-    - Algorithm:
-    - Review: 
-    - Tip: 
-    - Share: 
+    - Algorithm: Unique Email Address
+    - Review: netty user guide
+    - Tip: python 爬取当当图书信息
+    - Share: 分享来自clean code 和蔡学镛的几句话
   - [ARTS-25-1222.md](https://github.com/yangjinlong86/arts/blob/master/2018/ARTS25-1222.md)  
-    - Algorithm:
-    - Review: 
-    - Tip: 
-    - Share:   
+    - Algorithm: Integer to Roman
+    - Review: 10 Common Software Architectural Patterns in a nutshell 
+    - Tip: spring.resources.static-locations 
+    - Share:  github app image bot 
   - [ARTS-24-1215.md](https://github.com/yangjinlong86/arts/blob/master/2018/ARTS24-1215.md)
-    - Algorithm:
-    - Review: 
-    - Tip: 
-    - Share:   
+    - Algorithm: Implement strStr()
+    - Review: Netty User guide
+    - Tip: 使用 datax 将 mysql 数据导入 elasticsearch
+    - Share: Chinese translation of Netty 4.x User Guide 
   - [ARTS-23-1208.md](https://github.com/yangjinlong86/arts/blob/master/2018/ARTS23-1208.md)
-    - Algorithm:
-    - Review: 
-    - Tip: 
-    - Share: 
+    - Algorithm: Middle of the Linked List
+    - Review: The Composite Pattern
+    - Tip: Python3 configparser
+    - Share: Spring Boot 设置跨域访问
   - [ARTS-22-1201.md](https://github.com/yangjinlong86/arts/blob/master/2018/ARTS22-1201.md)
-    - Algorithm:
-    - Review: 
-    - Tip: 
-    - Share:   
+    - Algorithm: Single Number
+    - Review: Announcing Stack Overflow for Teams
+    - Tip: Spring Cloud Ribbon 负载均衡重试机制
+    - Share: ByteScout SQL Trainer
   - [ARTS-21-1124.md](https://github.com/yangjinlong86/arts/blob/master/2018/ARTS21-1124.md)
-    - Algorithm:
-    - Review: 
-    - Tip: 
-    - Share: 
+    - Algorithm: Delete Columns to Make Sorted. 
+    - Review: Graceful Shutdown Spring Boot Applications. 
+    - Tip: Web Server Graceful Shutdown. 
+    - Share: Spring Cloud Ribbon 负载均衡.
   - [ARTS-20-1118.md](https://github.com/yangjinlong86/arts/blob/master/2018/ARTS20-1118.md)
-    - Algorithm:
-    - Review: 
-    - Tip: 
-    - Share: 
+    - Algorithm: Number of Recent Calls
+    - Review: Java Thread Pool Example using Executors and ThreadPoolExecutor
+    - Tip: 线程池的饱和策略
+    - Share: 正确设置线程池的大小
   - [ARTS-19-1111.md](https://github.com/yangjinlong86/arts/blob/master/2018/ARTS19-1111.md)
-    - Algorithm:
-    - Review: 
-    - Tip: 
-    - Share: 
+    - Algorithm: Reorder Log Files
+    - Review: 30 best practices for logging at scale
+    - Tip: Ubuntu 启动界面修改
+    - Share: 关于日志的那些事儿
   - [ARTS-18-1104.md](https://github.com/yangjinlong86/arts/blob/master/2018/ARTS18-1104.md)
-    - Algorithm:
-    - Review: 
-    - Tip: 
-    - Share: 
+    - Algorithm: Reverse String
+    - Review: shard
+    - Tip: sharding-sphere
+    - Share: mycat 从入门到放弃
   - [ARTS-17-1028.md](https://github.com/yangjinlong86/arts/blob/master/2018/ARTS17-1028.md)
-    - Algorithm:
-    - Review: 
-    - Tip: 
-    - Share: 
+    - Algorithm: Remove Element
+    - Review: What is the Java 9 Module System?
+    - Tip: Mycat 原理
+    - Share: 近期学习kafka和分库分表的一些感受
   - [ARTS-16-1021.md](https://github.com/yangjinlong86/arts/blob/master/2018/ARTS16-1021.md)
-    - Algorithm:
-    - Review: 
-    - Tip: 
-    - Share: 
+    - Algorithm: Word Break
+    - Review: 封装 kafka client
+    - Tip: 使用 jenkins pipeline 定时运行python脚本
+    - Share: 关于分库分表
   - [ARTS-15-1013.md](https://github.com/yangjinlong86/arts/blob/master/2018/ARTS15-1013.md)
     - Algorithm: Remove Duplicates From Sorted Array
     - Review: Apache Kafka Quickstart
