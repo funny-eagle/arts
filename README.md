@@ -13,7 +13,7 @@
 ## ARTS目录
 - 2019
   - [ARTS40-0617.md](https://github.com/yangjinlong86/arts/blob/master/2019/ARTS40-0616.md)
-    - Algorithm: 627. Swap Salary
+    - Algorithm: 561. Array Partition I, 627. Swap Salary
     - Tips: filebeat+kafka+elk 实现nginx access log 实时监控分析
   - [ARTS39-0511.md](https://github.com/yangjinlong86/arts/blob/master/2019/ARTS39-0511.md)
     - Algorithm: 563. Binary Tree Tilt
