@@ -12,6 +12,8 @@
 
 ## ARTS目录
 - 2019
+  - [ARTS43-1003](https://github.com/yangjinlong86/arts/blob/master/2019/ARTS43-1003.md)
+    - Algorithm: 10.正则表达式匹配
   - [ARTS42-0811](https://github.com/yangjinlong86/arts/blob/master/2019/ARTS42-0811.md)
     - Algorithm: 1108. IP 地址无效化
   - [ARTS41-0622.md](https://github.com/yangjinlong86/arts/blob/master/2019/ARTS41-0622.md)
