@@ -45,10 +45,9 @@
   - [ARTS-35-0324.md](<https://github.com/yangjinlong86/arts/blob/master/2019/ARTS35-0324.md>)
     - Algorithm:700. Search in a Binary Search Tree
     - Review: 5 best libraries for making AJAX calls in React
-  - Tip: 二叉查找树相关的几个基本概念
+    - Tip: 二叉查找树相关的几个基本概念
     - Share: 深入浅出UML类图
   - [ARTS-34-0316.md](https://github.com/yangjinlong86/arts/blob/master/2019/ARTS34-0316.md)
-  
     - Algorithm: 35. Search Insert Position
     - Review: Gateway Aggregation pattern
     - Tip: Spring Cloud Gateway 的使用
@@ -56,31 +55,24 @@
   - [ARTS-33-0309.md](https://github.com/yangjinlong86/arts/blob/master/2019/ARTS33-0309.md)
     - Algorithm:832. Flipping an Image
     - Review: Inverted Index
-  - Tip: Aggregation pattern
+    - Tip: Aggregation pattern
     - Share: 数据库设计的范式化和反范式化
-- [ARTS-32-0302.md](https://github.com/yangjinlong86/arts/blob/master/2019/ARTS32-0302.md)
-  
-  - Algorithm:977. Squares of a Sorted Array
-  
-  - Review: Readme Driven Development
-  
+  - [ARTS-32-0302.md](https://github.com/yangjinlong86/arts/blob/master/2019/ARTS32-0302.md)
+    - Algorithm:977. Squares of a Sorted Array
+    - Review: Readme Driven Development
     - Tip: Docker 容器中centos的编码问题
-
     - Share: 开源项目的选择和使用
   - [ARTS-31-0216.md](https://github.com/yangjinlong86/arts/blob/master/2019/ARTS31-0216.md)
-  
     - Algorithm: 905. Sort Array By Parity
     - Review: Quick Tips for Fast Code on the JVM
-  - Tip: 使用 lombok @Slf4j 注解简化日志开发
+    - Tip: 使用 lombok @Slf4j 注解简化日志开发
     - Share: 解决 Windows 7 IE11 HTML 页面打开空白问题
   - [ARTS-30-0127.md](https://github.com/yangjinlong86/arts/blob/master/2019/ARTS30-0127.md)
-  
     - Algorithm: 961. N-Repeated Element in Size 2N Array
     - Review: Thread-Safe Collections
-  - Tip: 10进制计数法和2进制计数法
+    - Tip: 10进制计数法和2进制计数法
     - Share: AOP入门分享PPT
   - [ARTS-29-0119.md](https://github.com/yangjinlong86/arts/blob/master/2019/ARTS29-0119.md)
-  
     - Algorithm: 804. Unique Morse Code Words
   - [ARTS-28-0112.md](https://github.com/yangjinlong86/arts/blob/master/2019/ARTS28-0112.md)
     - Algorithm:976. Largest Perimeter Triangle
