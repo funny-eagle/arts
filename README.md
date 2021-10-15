@@ -1,4 +1,4 @@
-# ARTS - 每周技术分享
+# ARTS
 
 `ARTS`是[左耳朵耗子(陈皓)](https://github.com/haoel)对其[左耳听风](https://time.geekbang.org/column/intro/48)专栏读者发起的一项能力训练活动。`A`、`R`、`T`、`S`分别代表 **Algorithm** 至少做一个leetcode算法题, **Review** 阅读并点评至少一篇英文技术文章, **Tip** 学习至少一个技术技巧, **Share** 分享一篇有观点和思考的技术文章。
 
