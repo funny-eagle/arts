@@ -17,7 +17,6 @@
   - [ARTS-44](https://github.com/yangjinlong86/arts/blob/master/2021/ARTS-44.md)
     - Algorithm: 58. Length of Last Word
     - Review: Introduction to Java Bytecode
-    - Tip: 
     - Share: 《Java经典实例》的配套代码库
 - 2019
   - [ARTS43-1003](https://github.com/yangjinlong86/arts/blob/master/2019/ARTS43-1003.md)
@@ -27,7 +26,6 @@
   - [ARTS41-0622.md](https://github.com/yangjinlong86/arts/blob/master/2019/ARTS41-0622.md)
     - Algorithm: 144. Binary Tree Preorder Traversal
     - Review: Why you should use GatsbyJS to build static sites
-    - Tip: TBD
     - Share: 漂在旧金山
   - [ARTS40-0617.md](https://github.com/yangjinlong86/arts/blob/master/2019/ARTS40-0616.md)
     - Algorithm: 561. Array Partition I, 627. Swap Salary
