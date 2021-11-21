@@ -55,8 +55,14 @@ JVM 定义的数据类型包括`原始类型`和`引用类型`。
 
 ## Tip
 
+剪贴板工具是个好东西，工作电脑windows下用的QQ拼音输入法，里面有个剪贴板，一直没用过，
+前几天无意打开看到本地剪贴板的内容有很多，试用了一下，真的可以提高不少工作效率；
+暂时也不需要其他酷炫的功能，剪贴板历史足矣，用法也很简单，不多介绍了；
+个人PC用的是fedora，剪贴板工具使用gnome下的Gpaste，给大家推荐试试，剪贴板工具，定能助你CV大法更牛掰。
 
-## Share
+# Share
+
+We believe that three things lead to success: Practice, Practice and Practice!
 
 上一篇ARTS定格在2019年10月3日，不由感慨时间过得真快，这两年的代码量和技术书籍的阅读量也是少的可怜。
 
@@ -64,9 +70,10 @@ JVM 定义的数据类型包括`原始类型`和`引用类型`。
 
 这个需要综合能力的时代，技管并重，哪个都不能落下，压力山大。
 
-分享一下《Java经典实例》的配套代码，作者从1995年维护至今，佩服！
-
-- [darwinsys-api](https://github.com/IanDarwin/darwinsys-api)
-- [javasrc](https://github.com/IanDarwin/javasrc)
+- 《Java经典实例》的配套代码，作者从1995年维护至今，佩服！
+  - [darwinsys-api](https://github.com/IanDarwin/darwinsys-api)
+  - [javasrc](https://github.com/IanDarwin/javasrc)
+- We believe that three things lead to success: Practice, Practice and Practice!
+  - https://www.codeabbey.com/
 
 

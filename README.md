@@ -2,7 +2,6 @@
 
 `ARTS`是[左耳朵耗子(陈皓)](https://github.com/haoel)对其[左耳听风](https://time.geekbang.org/column/intro/48)专栏读者发起的一项能力训练活动。`A`、`R`、`T`、`S`分别代表 **Algorithm** 至少做一个leetcode算法题, **Review** 阅读并点评至少一篇英文技术文章, **Tip** 学习至少一个技术技巧, **Share** 分享一篇有观点和思考的技术文章。
 
-## 做ARTS的目的
 
 > 最low的学习，就是“听别人讲“，然后是自己闭门读书，再然后看视频，看别人的演示，这些都是被动学习。只在主动找人讨论、践行，传播教会他人才是主动学习！
 > 
@@ -12,13 +11,14 @@
 > 
 > --陈皓
 
-## ARTS目录
+## 目录
 
 - 2021
   - [ARTS-44](https://github.com/yangjinlong86/arts/blob/master/2021/ARTS-44.md)
     - Algorithm: 58. Length of Last Word
     - Review: Introduction to Java Bytecode
-    - Share: 《Java经典实例》的配套代码库
+    - Tip: Practice, Practice and Practice!
+    - Share: We believe that three things lead to success: Practice, Practice and Practice!
 - 2019
   - [ARTS43-1003](https://github.com/yangjinlong86/arts/blob/master/2019/ARTS43-1003.md)
     - Algorithm: 10.正则表达式匹配
