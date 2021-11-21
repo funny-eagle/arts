@@ -17,8 +17,8 @@
   - [ARTS-44](https://github.com/yangjinlong86/arts/blob/master/2021/ARTS-44.md)
     - Algorithm: 58. Length of Last Word
     - Review: Introduction to Java Bytecode
-    - Tip: Practice, Practice and Practice!
-    - Share: We believe that three things lead to success: Practice, Practice and Practice!
+    - Tip: 推荐使用剪贴板工具提高CV大法效率
+    - Share: Practice, Practice and Practice!
 - 2019
   - [ARTS43-1003](https://github.com/yangjinlong86/arts/blob/master/2019/ARTS43-1003.md)
     - Algorithm: 10.正则表达式匹配
