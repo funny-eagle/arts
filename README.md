@@ -22,7 +22,7 @@
   - [ARTS-44](https://github.com/yangjinlong86/arts/blob/master/2021/ARTS-44.md)
     - Algorithm: 58. Length of Last Word
     - Review: Introduction to Java Bytecode
-    - Tip: 推荐使用剪贴板工具提高CV大法效率
+    - Tip: 使用剪贴板工具提高CV大法效率
     - Share: Practice, Practice and Practice!
 - 2019
   - [ARTS43-1003](https://github.com/yangjinlong86/arts/blob/master/2019/ARTS43-1003.md)
