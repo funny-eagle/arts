@@ -19,6 +19,11 @@
 ## 目录
 
 - 2021
+  - [ARTS-45](https://github.com/yangjinlong86/arts/blob/master/2021/ARTS-45.md)
+    - Algorithm: sums-in-loop
+    - Review: React Components
+    - Tip: 删除Linux无用内核，更新系统时不升级内核
+    - Share: notable
   - [ARTS-44](https://github.com/yangjinlong86/arts/blob/master/2021/ARTS-44.md)
     - Algorithm: 58. Length of Last Word
     - Review: Introduction to Java Bytecode
