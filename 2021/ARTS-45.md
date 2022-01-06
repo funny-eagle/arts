@@ -229,3 +229,5 @@ https://chewett.co.uk/blog/800/exclude-fedora-packages-updating-dnf-yum/
 https://laplacence.github.io/2017/02/27/Fedora_delete_redundancy_kernel/
 
 ## Share
+
+分享一个开源的Markdown编辑器，https://github.com/notable/notable
