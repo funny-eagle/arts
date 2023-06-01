@@ -133,8 +133,91 @@ public class AddBinary {
         "mail": "yangjinlong86@gmail.com"
     }
     ```
-2. 
-
+2. Switch 表达式
+    - 冒号改为箭头方式，不需要单独写`break`，代码更简洁
+        ```java
+        private static void withSwitchExpression(Fruit fruit) {
+            switch (fruit) {
+                case APPLE, PEAR -> System.out.println("Common fruit");
+                case ORANGE, AVOCADO -> System.out.println("Exotic fruit");
+                default -> System.out.println("Undefined fruit");
+            }
+        }
+        ```
+    - 支持返回值，如果一个case下需要多行代码，使用`yield`关键字指定返回值
+        ```java
+        private static void withYield(Fruit fruit) {
+            String text = switch (fruit) {
+                case APPLE, PEAR -> {
+                    System.out.println("the given fruit was: " + fruit);
+                    yield "Common fruit";
+                }
+                case ORANGE, AVOCADO -> "Exotic fruit";
+                default -> "Undefined fruit";
+            };
+            System.out.println(text);
+        }
+        ```
+    - `yield`支持旧的 switch 语法，也不需要单独写`break`
+        ```java
+        private static void oldStyleWithYield(Fruit fruit) {
+            System.out.println(switch (fruit) {
+                case APPLE, PEAR:
+                    yield "Common fruit";
+                case ORANGE, AVOCADO:
+                    yield "Exotic fruit";
+                default:
+                    yield "Undefined fruit";
+            });
+        }
+        ```
+3. Records
+    - Records 用来创建一个不可变的数据类，与传统的类相比，无需我们再写构造器, getters, hashCode, equals 和 toString方法
+    - 使用new 创建Record时，如果参数与已经存在的Record相同，那么不会新建的Record副本与原Record是同一个实例。见以下代码最后一行的输出，hashcode是一样的。
+        ```java
+        private static void basicRecord() {
+            record GrapeRecord(Color color, int nbrOfPits) {}
+            GrapeRecord grape1 = new GrapeRecord(Color.BLUE, 1);
+            GrapeRecord grape2 = new GrapeRecord(Color.WHITE, 2);
+            System.out.println("Grape 1 is " + grape1);
+            System.out.println("Grape 2 is " + grape2);
+            System.out.println("Grape 1 equals grape 2? " + grape1.equals(grape2));
+            GrapeRecord grape1Copy = new GrapeRecord(grape1.color(), grape1.nbrOfPits());
+            System.out.println("Grape 1 equals its copy? " + grape1.equals(grape1Copy));
+            System.out.println(grape1.hashCode() + " " + grape1Copy.hashCode());
+        }
+        ```
+        ```log
+        Grape 1 is GrapeRecord[color=java.awt.Color[r=0,g=0,b=255], nbrOfPits=1]
+        Grape 2 is GrapeRecord[color=java.awt.Color[r=255,g=255,b=255], nbrOfPits=2]
+        Grape 1 equals grape 2? false
+        Grape 1 equals its copy? true
+        -520085790 -520085790
+        ```
+4. Sealed Classes
+5. Pattern matching for instanceof
+6. Helpful NullPointerExceptions
+7. Compact Number Formatting Support
+8. Day Period Support Added
+9. Stream.toList()
+    - 旧版本中，如果要把Stream转换成List，需要调用`collect(Collectors.toList)`，Java 17 中，`Stream`增加了`toList()`方法，可以直接转换为`List`
+        ```java
+        private static void oldStyle() {
+            Stream<String> stringStream = Stream.of("a", "b", "c");
+            List<String> stringList =  stringStream.collect(Collectors.toList());
+            for(String s : stringList) {
+                System.out.println(s);
+            }
+        }
+        
+        private static void streamToList() {
+            Stream<String> stringStream = Stream.of("a", "b", "c");
+            List<String> stringList =  stringStream.toList();
+            for(String s : stringList) {
+                System.out.println(s);
+            }
+        }
+        ```
 
 ## Tip
 
