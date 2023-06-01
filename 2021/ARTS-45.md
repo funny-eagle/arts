@@ -1,4 +1,4 @@
-# ARTS-44
+# ARTS-45
 
 ## Algorithm
 
@@ -230,4 +230,4 @@ https://laplacence.github.io/2017/02/27/Fedora_delete_redundancy_kernel/
 
 ## Share
 
-分享一个开源的Markdown编辑器，https://github.com/notable/notable
+GO编程模式 ： 泛型编程 https://coolshell.cn/articles/21615.html
