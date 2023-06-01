@@ -1,6 +1,4 @@
-# ARTS
-
-### Come on guys, let's do it together, fighting!!!
+# ARTS - Come on guys, let's do it together!
 
 `ARTS`是[皓哥](https://github.com/haoel)在[左耳听风](https://time.geekbang.org/column/intro/48)读者群里发起的一项能力训练活动。
 
