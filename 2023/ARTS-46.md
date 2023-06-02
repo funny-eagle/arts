@@ -110,30 +110,31 @@ public class AddBinary {
 ## Review
 
 以前在完成Review这一项任务的时候，通过皓哥的专栏和引导，发现了很多优秀的国外技术网站，如[medium](https://medium.com/)、[DZone](https://dzone.com)、[javatpoint](https://www.javatpoint.com/)、[IBM Developer](https://www.ibm.com/)等等，阅读高质量的英文文章，可以提高英文水平，也可以学习大佬对技术理解的视角和思维方式。今天阅读的是dzone上一位大佬总结的java11到java17的新特性[What’s New Between Java 11 and Java 17](https://dzone.com/articles/whats-new-between-java-11-and-java-17)，篇幅不长，可以快速了解上一个LTS版本Java11到17的一些新特性。下面对文中提到的新特性作以下简要整理。
-1. 文本块，类似python中的文本块支持换行。
-    ```java
-    public class TextBlock {
-        public static void main(String[] args) {
-            String json = """
-                    {
-                        "name": "Jason",
-                        "age": "34",
-                        "mail": "yangjinlong86@gmail.com"
-                    }
-                    """;
-            System.out.println(json);
+1. Text Blocks 
+   - 文本块，类似python中的文本块支持换行。
+        ```java
+        public class TextBlock {
+            public static void main(String[] args) {
+                String json = """
+                        {
+                            "name": "Jason",
+                            "age": "34",
+                            "mail": "yangjinlong86@gmail.com"
+                        }
+                        """;
+                System.out.println(json);
+            }
         }
-    }
-    ```
-    输出结果也是带格式的
-    ```json
-    {
-        "name": "Jason",
-        "age": "34",
-        "mail": "yangjinlong86@gmail.com"
-    }
-    ```
-2. Switch 表达式
+        ```
+        输出结果也是带格式的
+        ```json
+        {
+            "name": "Jason",
+            "age": "34",
+            "mail": "yangjinlong86@gmail.com"
+        }
+        ```
+2. Switch Expressions
     - 冒号改为箭头方式，不需要单独写`break`，代码更简洁
         ```java
         private static void withSwitchExpression(Fruit fruit) {
@@ -194,11 +195,69 @@ public class AddBinary {
         Grape 1 equals its copy? true
         -520085790 -520085790
         ```
+    - Record的构造方法中可以增加字段校验逻辑
+        ```java
+            private static void basicRecordWithValidation() {
+                record GrapeRecord(Color color, int nbrOfPits) {
+                    GrapeRecord {
+                        System.out.println("Parameter color=" + color + ", Field color=" + this.color());
+                        System.out.println("Parameter nbrOfPits=" + nbrOfPits + ", Field nbrOfPits=" + this.nbrOfPits());
+                        if (color == null) {
+                            throw new IllegalArgumentException("Color may not be null");
+                        }
+                    }
+                }
+                GrapeRecord grape1 = new GrapeRecord(Color.BLUE, 1);
+                System.out.println("Grape 1 is " + grape1);
+                GrapeRecord grapeNull = new GrapeRecord(null, 2);
+            }
+        ```
 4. Sealed Classes
+    - 使用关键字`sealed`配合`permits`来限定类的继承范围，不被允许的类继承该类会编译错误，提示`'ClassName' is not allowed in the sealed hierarchy`
+    - 继承了该类的子类需要声明自身的继承范围，使用关键字`final`、`sealed`和`non-sealed`来限定继承范围
 5. Pattern matching for instanceof
+    - `instanceof`的类名之后，跟一个变量名，可以省去强转和声明类的步骤
+        ```java
+        Object o = new GrapeClass(Color.BLUE, 2);
+        if (o instanceof GrapeClass grape) {
+            System.out.println("This grape has " + grape.getNbrOfPits() + " pits.");
+        }
+        ```
 6. Helpful NullPointerExceptions
+    - 当发生空指针异常是，异常信息中直接会告诉你是哪个类的哪个方法导致的
+        ```java
+        Exception in thread "main" java.lang.NullPointerException: Cannot invoke "com.mydeveloperplanet.myjava17planet.GrapeClass.getColor()" because the return value of "java.util.HashMap.get(Object)" is null
+        at com.mydeveloperplanet.myjava17planet.HelpfulNullPointerExceptions.main(HelpfulNullPointerExceptions.java:13)
+        ```
 7. Compact Number Formatting Support
+    - `NumberFormat`类中增加了`format`工厂方法，便于数字类型转换
 8. Day Period Support Added
+    - `DateTimeFormatter` 中新增了一个`B`模式，可以直接返回时间所属的时段信息
+    ```java
+    public class DayPeriod {
+        public static void main(String[] args) {
+            DateTimeFormatter dtf = DateTimeFormatter.ofPattern("B");
+            System.out.println(dtf.format(LocalTime.of(8, 0)));
+            System.out.println(dtf.format(LocalTime.of(13, 0)));
+            System.out.println(dtf.format(LocalTime.of(20, 0)));
+            System.out.println(dtf.format(LocalTime.of(23, 0)));
+            System.out.println(dtf.format(LocalTime.of(0, 0)));
+        }
+    }
+    ```
+    
+    ```log
+    上午
+    下午
+    晚上
+    晚上
+    午夜
+    ```
+    默认返回值是当前时区，也可以指定Locale，例如：
+    ```java
+    dtf = DateTimeFormatter.ofPattern("B").withLocale(Locale.forLanguageTag("NL"));
+    ```
+
 9. Stream.toList()
     - 旧版本中，如果要把Stream转换成List，需要调用`collect(Collectors.toList)`，Java 17 中，`Stream`增加了`toList()`方法，可以直接转换为`List`
         ```java
